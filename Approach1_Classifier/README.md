@@ -4,6 +4,9 @@ This approach give us the highest private score of 0.471. You can validate at th
 
 *Note that the notebook we submitted is different from the one in this GitHub repository. In this repository, we aim to specifically demonstrate our approach step by step. However, all the metrics and outputs in both notebooks are identical.*
 
+This document serves to explain our approach. For detailed information about the code and outputs, please refer to the [notebook](approach1_classifier.ipynb) located in the same folder.  
+To execute this notebook, simply click the Open in Kaggle button at the top-left corner of the notebook.
+
 ## 1. The reason for choosing this approach
 The goal of this competition is to predict from this data a participant's Severity Impairment Index (`sii`), a standard measure of problematic internet use.  According to the problem description, this is a multiclass categorical classification task with outputs ranging from 0 to 3: 0 for None, 1 for Mild, 2 for Moderate, and 3 for Severe. Given this structure, our first approach was to use a classifier method to predict the test data, specifically implementing a Random Forest Classifier.
 
@@ -20,7 +23,6 @@ The table below summarizes some of the key submissions that represent significan
 | Version 29 | 12/12/2024 | Highest score version (only tuning hyperparams from version 27) | 0.471 | 0.412 |
 
 ## 3. Methodology
-This is only documentation of our methodology. For more details about the code and output, please refer to the notebook in the same folder.
 ### 3.1. Data Selection & Data Cleaning
 - In this approach, we didn't use the actigraphy files due to their complexity and high missing data ratio (approximately 75%). Instead, we focused on the train and test CSV files, using the pandas library to read them as dataframes.
 - We drop the features without output label to avoid noise points and more efficient computation
