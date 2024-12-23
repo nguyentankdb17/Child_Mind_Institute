@@ -54,7 +54,7 @@ This is only documentation of our methodology. For more details about the code a
 ### 3.4. Model Optimization & Training
 - The eval metric is quadratic weighted kappa as mentioned in competition description.
 - We decide to optimize the model by using GridSearch CV - a model optimization method from sklearn to find out the best hyperparameters.  The hyperparameters sets in gridsearch cv were selected based on insights gained from our previous submissions.
-- After fitting all possible tuples the grid search gives us the best params corresponding to the best score. Now we will assign these hyperparameters back to the model and training it:
+- After fitting all possible combinations, the grid search provides us with the best parameters corresponding to the highest score. Then, we will assign these hyperparameters back to the model and train it:
 ```
 final_model = RandomForestClassifier(
     n_estimators=300,
