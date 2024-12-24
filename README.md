@@ -7,13 +7,14 @@ Our team includes 3 members:
 - [Nguyen Nhat Quang -22028307](https://github.com/6ra1ju)
 - [KIM CHAE YEON - 22028336](https://github.com/chyyn)
 
-After over a month with total 75 submissions, we finally got 0.423 public score and finished 938th  
-  
-![Final Ranking](final_ranking.png)
-
 To handle with this problem, we attempted with 2 approaches:
 - [Approach 1 - Classifier](Approach1_Classifier)
 - [Approach 2 - Regressor](Approach2_Regressor)
 
-For more details on each approach, please navigate to the appropriate directory to view.
+For more details on each approach, please navigate to the appropriate directory to view.  
 You can also view our explaination at this [Link](https://drive.google.com/file/d/1Hqjjs1-B21kzLTw83JivOBHflgSM6Fcm/view?fbclid=IwZXh0bgNhZW0CMTEAAR1sKvs60SIe8AvR5W_2h3KSRQbTPxUSTzzEo2BqxceJ17O1Iwt33FdPClQ_aem_fAZYG_hzvpujf-ceGDZbqQ&pli=1).
+
+After over a month with total 75 submissions, we finally got 0.423 public score and finished 938th  
+  
+![Final Ranking](final_ranking.png)
+This was our first competition on Kaggle, and we are truly delighted by the knowledge and experience we gained throughout this journey — not just the final result.
