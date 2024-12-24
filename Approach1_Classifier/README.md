@@ -86,4 +86,5 @@ Mean Recall Score: 0.3781062639306915
 ```
 ## 5. Result
 ![Best Result](https://i.imgur.com/hZz2Abi.png)
+After submit to competiton we got the public score of 0.412 and  that didn’t meet our expectations. So we moved to approach 2 - regressor the `PCIAT_PCIAT-Total`.
 
