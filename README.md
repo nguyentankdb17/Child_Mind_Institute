@@ -16,4 +16,4 @@ To handle with this problem, we attempted with 2 approaches:
 - [Approach 2 - Regressor](Approach2_Regressor)
 
 For more details on each approach, please navigate to the appropriate directory to view.
-You can also view our explaination in this [Link](#)
+You can also view our explaination at this [Link](https://drive.google.com/file/d/1Hqjjs1-B21kzLTw83JivOBHflgSM6Fcm/view?fbclid=IwZXh0bgNhZW0CMTEAAR1sKvs60SIe8AvR5W_2h3KSRQbTPxUSTzzEo2BqxceJ17O1Iwt33FdPClQ_aem_fAZYG_hzvpujf-ceGDZbqQ&pli=1).
